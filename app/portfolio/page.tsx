@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Card from "../card";
+import Card from "../components/card";
 import Image from "next/image";
 import { motion } from "framer-motion";
 

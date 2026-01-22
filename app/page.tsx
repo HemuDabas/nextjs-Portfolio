@@ -1,15 +1,24 @@
-;
-import AboutPage from "./components/main/about";
+
+
 import Skills from "./components/sub/skills";
-import Portfolio from "./components/main/Portfolio";
+import AboutPage from "./about/page";
+import Portfolio from "./portfolio/page";
+import Hero from "./components/hero";
+
+
 
 export default function HomePage() {
+
+  const meteors = Array.from({ length: 10 });
   return (
     <>
-    
+      <Hero />
       <AboutPage />
       <Skills />
       <Portfolio />
+
     </>
+
+
   );
 }

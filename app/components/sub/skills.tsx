@@ -1,6 +1,6 @@
 "use client";
 
-import SkillBar from "../main/skillbar";
+import SkillBar from "../../skills/page";
 
 export default function Skills() {
   const skills = [
