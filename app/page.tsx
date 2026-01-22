@@ -3,7 +3,7 @@
 import AboutPage from "./components/main/about";
 
 import Portfolio from "./components/main/Portfolio";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import Skills from "./components/sub/skills";
 
 
