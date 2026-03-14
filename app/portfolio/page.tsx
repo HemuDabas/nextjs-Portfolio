@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const projects = [
   { id: 1, title: "InfyVault", url: "https://infyvault.com/", img: "/1.png" },
-  { id: 2, title: "DabasDev Blogs", url: "https://dabas-dev-blogs.vercel.app/", img: "2.png" },
+  { id: 2, title: "DabasDev Blogs", url: "https://dabas-dev-blogs.vercel.app/", img: "/2.png" },
   { id: 3, title: "Project Three", url: "https://jioresume.com/", img: "/3.png" },
   { id: 4, title: "Project Four", url: "https://worlddigitalagency.in/sonekiduniya/", img: "/4.png" },
   { id: 5, title: "Project Five", url: "https://www.worlddigitalagency.in/shivammotors/", img: "/5.png" },
