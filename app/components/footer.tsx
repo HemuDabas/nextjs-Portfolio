@@ -1,6 +1,7 @@
 "use client";
 
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -20,19 +21,19 @@ export default function Footer() {
           <h2 className="text-xl font-bold">Quick Links</h2>
           <ul className="space-y-2 text-gray-400 text-sm">
             <li>
-              <a href="#about" className="hover:text-orange-500 transition-colors">
+              <Link href="#about" className="hover:text-orange-500 transition-colors">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#portfolio" className="hover:text-orange-500 transition-colors">
+              <Link href="#portfolio" className="hover:text-orange-500 transition-colors">
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#contact" className="hover:text-orange-500 transition-colors">
+              <Link href="#contact" className="hover:text-orange-500 transition-colors">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -49,27 +50,27 @@ export default function Footer() {
         <div className="space-y-3">
           <h2 className="text-xl font-bold">Follow Me</h2>
           <div className="flex space-x-4 text-gray-400 text-2xl">
-            <a
+            <Link
               href="https://github.com"
               target="_blank"
               className="hover:text-orange-500 transition-colors"
             >
               <FaGithub />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://linkedin.com"
               target="_blank"
               className="hover:text-orange-500 transition-colors"
             >
               <FaLinkedin />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://twitter.com"
               target="_blank"
               className="hover:text-orange-500 transition-colors"
             >
               <FaTwitter />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
